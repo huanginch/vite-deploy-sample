@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://huanginch.github.io
-# git push -f git@github.com:huanginch/huanginch.github.io.git master
+# git push -f git@github.com:huanginch/huanginch.github.io.git main
 
 # if you are deploying to https://huanginch.github.io/vite-deploy-sample
-git push -f git@github.com:huanginch/vite-deploy-sample.git master:gh-pages
+git push -f git@github.com:huanginch/vite-deploy-sample.git main:gh-pages
 
 cd -
